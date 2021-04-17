@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/northern-lights-realistic-set_1284-29857.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+
+.login_div1 , .login_div2 {
+    padding: 10px;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.5494572829131652) 0%, rgba(0,0,0,0.5494572829131652) 100%);
+    float: none;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#heading {
+	-webkit-text-stroke: 0.15vw white;
+	color: transparent;
+	margin: 0 0 40px 0;
+	font-size: 4rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.heading {
+	-webkit-text-stroke: 0.15vw white;
+	color: transparent;
+	margin: 0 0 40px 0;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: 90deg, rgba(255, 255, 255, 0) 0%;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: darkslategray;
+    border-width: 10px;
+}
